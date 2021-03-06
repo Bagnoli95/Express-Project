@@ -32,6 +32,7 @@ app.get('*', (req, res) => {
 //Definir en que puerto va a escuchar el servidor
 app.listen(3000, () => {
     console.log('Servidor Iniciado');
+    console.log('Servidor arriba!');
     console.log('Nombre de la App: ', app.get('appName'));
 });
 
